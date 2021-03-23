@@ -1,37 +1,31 @@
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
-  align-items: center;
-
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding: 0.5rem;
   margin: 1rem 1rem 1rem;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.014443277310924318) 100%
-  );
+  background: rgb(240, 224, 224);
+
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
-  border: 0.1rem solid rgba(255, 255, 255, 0.18);
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-img {
-  height: 7.5rem;
-  width: 7.5rem;
+.header > img {
+  height: 3.3rem;
+  width: 3.3rem;
   border-radius: 50%;
-  transform: translateY(50%);
 }
-
-.content .texts {
+.texts {
   display: flex;
   flex-direction: column;
-  margin: 1rem 1rem 5rem;
-  align-items: center;
 
-  transform: translateY(100%);
+  align-items: center;
+  text-shadow: rgb(65, 68, 87) 1px 1.5px 1px;
 }
 .name {
   font-family: "Kanit", sans-serif;
@@ -39,41 +33,61 @@ img {
   font-size: 1.3rem;
 }
 
-.socials {
-  display: flex;
-
-  margin: 1rem;
-  height: 300px;
-  flex-direction: column;
-  justify-content: space-around;
+.texts > p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  font-size: 0.75rem;
 }
 
-.card-social {
+.socials {
   display: flex;
   flex: 1;
-  height: 1.75rem;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+a.card-social {
+  display: flex;
+
+  height: 3.5rem;
+
   margin: 0.2rem;
 
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 
   background: #ffffff;
-  border: 1px cornsilk;
+
   border-radius: 5px;
 }
-.card-social > div:nth-child(:first) {
-  width: 30vw;
+a.card-social > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
 }
-.card-social > div:nth-child(:last-child) {
-  width: 70vw;
-  align-items: baseline;
+
+a.card-social > div > img {
+  margin-left: 1rem;
+  width: 3rem;
+  height: 3rem;
 }
-.card-social > div > span {
-  color: black;
+
+a.card-social > div > span {
+  color: #4a4e69;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer > p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  font-size: 0.75rem;
 }
