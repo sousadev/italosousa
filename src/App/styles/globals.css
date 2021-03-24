@@ -12,12 +12,11 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   height: 100vh;
-  background: rgb(7, 3, 75);
+  background: rgb(22, 32, 45);
   background: linear-gradient(
-    150deg,
-    rgba(7, 3, 75, 1) 0%,
-    rgba(60, 60, 125, 1) 48%,
-    rgba(255, 204, 0, 1) 100%
+    160deg,
+    rgba(22, 32, 45, 1) 17%,
+    rgba(239, 191, 0, 1) 100%
   );
 }
 body,

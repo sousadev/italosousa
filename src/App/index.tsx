@@ -21,54 +21,50 @@ function App() {
       </div>
       <div className="socials">
         <a className="card-social" href="https://www.linkedin.com/in/sousadev">
-          <div >
+          
           <img src="/assets/linkedin.png" alt="" />
-          </div>
-          <div>
+          
+          
             <span>Linkedin</span>
-          </div>
+          
         </a>
 
         <a className="card-social" href="https://www.instagram.com/italo.dev">
-          <div >
+          
           <img src="/assets/instagram.png" alt="" />
-          </div>
-          <div>
+          
+         
             <span>Instagram</span>
-          </div>
+          
         </a>
         <a className="card-social" href="https://www.github.com/sousadev">
-          <div >
+          
           <img src="/assets/github.png" alt="" />
-          </div>
-          <div>
+     
             <span>GitHub</span>
-          </div>
+          
         </a>
         <a className="card-social" href="https://api.whatsapp.com/send/?phone=5511930824454&text&app_absent=0">
-          <div >
+        
           <img src="/assets/whatsapp.png" alt="" />
-          </div>
-          <div>
+
             <span>WhatsApp</span>
-          </div>
+  
         </a>
         <a className="card-social" href="https://www.italosousa.com.br">
-          <div >
+    
           <img src="/assets/web.png" alt="" />
-          </div>
-          <div>
+ 
             <span>Site</span>
-          </div>
+    
         </a>
         
         <a className="card-social" href="tel:+5511930824454">
-          <div >
+          
           <img src="/assets/call.png" alt="" />
-          </div>
-          <div>
+     
             <span>Telefone</span>
-          </div>
+          
         </a>
         
       </div>
